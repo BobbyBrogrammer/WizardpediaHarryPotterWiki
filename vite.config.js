@@ -6,7 +6,7 @@ export default defineConfig({
     outDir: "dist"
   },
 
-  base: "/Harry_Potter_GBG2/",
+  base: "/WizardpediaHarryPotterWiki/",
   server: {
     proxy: {
       "/api": {
@@ -28,19 +28,19 @@ export default defineConfig({
       devOptions: { enabled: true },
       includeAssets: ["HP-HP.png", "HP-logo.png"],
       manifest: {
-        id: "Harry_Potter_GBG2/",
+        id: "WizardpediaHarryPotterWiki/",
         name: "Wizardpedia",
         short_name: "Wizardpedia",
         description: "Wizardpedia PWA",
         theme_color: "#111111",
         background_color: "#111111",
         display: "standalone",
-        start_url: "/Harry_Potter_GBG2/",
-        scope: "/Harry_Potter_GBG2/",
+        start_url: "/WizardpediaHarryPotterWiki/",
+        scope: "/WizardpediaHarryPotterWiki/",
         icons: [
-          { src: "/Harry_Potter_GBG2/HP-logo.png", sizes: "192x192", type: "image/png" },
-          { src: "/Harry_Potter_GBG2/HP-HP.png", sizes: "512x512", type: "image/png" },
-          { src: "/Harry_Potter_GBG2/HP-HP.png", sizes: "512x512", type: "image/png", purpose: "maskable" }
+          { src: "/WizardpediaHarryPotterWiki/HP-logo.png", sizes: "192x192", type: "image/png" },
+          { src: "/WizardpediaHarryPotterWiki/HP-HP.png", sizes: "512x512", type: "image/png" },
+          { src: "/WizardpediaHarryPotterWiki/HP-HP.png", sizes: "512x512", type: "image/png", purpose: "maskable" }
         ]
       },
 
@@ -48,7 +48,7 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         globPatterns: ["**/*.{js,css,html,png,jpg,svg,ico,cur}"],
         maximumFileSizeToCacheInBytes: 15 * 1024 * 1024,
-        navigateFallback: "/Harry_Potter_GBG2/index.html",
+        navigateFallback: "/WizardpediaHarryPotterWiki/index.html",
         navigateFallbackDenylist: [/^\/(api|remote-api)/],
         runtimeCaching: [
           {
