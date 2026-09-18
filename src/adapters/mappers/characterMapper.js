@@ -1,7 +1,7 @@
 // src/adapters/mappers/characterMapper.js
 
 const IMAGE_FALLBACKS = {
-  "Albus Dumbledore": "/Harry_Potter_GBG2/images/characters/dumbledore.png",
+  "Albus Dumbledore": "/WizardpediaHarryPotterWiki/images/characters/dumbledore.png",
 };
 
 function getImage(raw) {
